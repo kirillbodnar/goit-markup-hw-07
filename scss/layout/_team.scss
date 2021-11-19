@@ -1,0 +1,61 @@
+.team {
+  background-color: #f5f4fa;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.item-color {
+  background-color: white;
+}
+
+.card-align {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section3 .item {
+  background: white;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section3 .item + .item {
+  margin-left: 30px;
+}
+
+.section3-header {
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.section3-title {
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.section3-text {
+  text-align: center;
+  margin-bottom: 16px;
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}

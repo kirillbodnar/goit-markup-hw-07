@@ -1,0 +1,116 @@
+.header-main {
+  border-bottom: 1px solid #ececec;
+}
+
+.nav {
+  background-color: #ffffff;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 92px;
+}
+
+.link {
+  transition-property: color, fill, background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-pos {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  margin-top: 24px;
+  margin-bottom: 25px;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-style: normal;
+  color: #2196f3;
+}
+
+.logo2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-style: normal;
+  color: var(--main-title-color);
+}
+
+.main-link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.main-link:hover,
+.main-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-contacts {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icon {
+  margin-right: 10px;
+}
+
+.nav-contacts .item + .item {
+  margin-left: 50px;
+}
+
+.nav-contacts .link {
+  display: flex;
+  fill: currentColor;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.nav-mail:hover,
+.nav-mail:focus {
+  color: var(--accent-color);
+}
+
+.nav-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.nav-phone:hover,
+.nav-phone:focus {
+  color: var(--accent-color);
+}

@@ -1,0 +1,49 @@
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  height: 120px;
+  width: 270px;
+  background-color: var(--thirdly-background-color);
+  border-radius: 4px;
+}
+
+.icon-box svg {
+  display: flex;
+}
+
+.section1 {
+  display: flex;
+  padding-bottom: 0;
+}
+
+.section1 .item {
+  max-width: 270px;
+}
+.section1 .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section1-header {
+  visibility: hidden;
+}
+
+.section1-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.section1-text {
+  margin-top: 10px;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.75;
+  letter-spacing: 0.03em;
+}
