@@ -37,14 +37,14 @@
   border: 1px solid var(--icons-color);
   border-radius: 4px;
   color: var(--icons-color);
-}
 
-.company-link:hover .company-icon,
-.company-link:focus .company-icon {
-  fill: var(--accent-color);
-}
+  &:hover .company-icon,
+  &:focus .company-icon {
+    fill: var(--accent-color);
+  }
 
-.company-link:hover,
-.company-link:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }

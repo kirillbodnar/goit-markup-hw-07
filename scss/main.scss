@@ -4,13 +4,15 @@
 //BASE
 @import "./base/common";
 //COMPONENTS
+@import "./components/logo";
 @import "./components/container";
 @import "./components/section";
-@import "./components/social_link";
+@import "./components/social-link";
 @import "./components/title";
 @import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-form";
+@import "./components/modal-btn";
 //LAYOUT
 @import "./layout/header";
 @import "./layout/hero";

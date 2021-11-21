@@ -769,7 +769,7 @@ img {
 
   display: block;
   padding-left: 16px;
-  padding-right:
+  padding-right: 16px;
   color: white;
 }
 
@@ -805,9 +805,9 @@ img {
 }
 
 .form-btn:hover,
-  .form-btn:focus {
-    background-color: #2196F3 ;
-  }
+.form-btn:focus {
+  background-color: #2196f3;
+}
 
 .form-btn-icon {
   margin-left: 10px;

@@ -29,8 +29,8 @@
   border-radius: 50%;
   background-color: inherit;
   transition: fill 250ms var(--transition);
-}
 
-.modal-btn:hover {
-  fill: var(--accent-color);
+  &:hover {
+    fill: var(--accent-color);
+  }
 }

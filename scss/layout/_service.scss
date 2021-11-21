@@ -25,29 +25,26 @@
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-.help-card-list .item:hover,
-.help-card-list .item:focus {
-  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
-    1px 4px 6px rgb(0 0 0 / 16%);
-  cursor: pointer;
-}
-
-.help-box-link:hover .service-box-text {
-  transform: translateY(-100%);
-}
-
-.service-box-text {
-  overflow-y: scroll;
-}
 
 .help-card-list {
   display: flex;
   flex-wrap: wrap;
+
+  & .item:hover,
+  & .item:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
 }
 
 .help-card-list .link {
   display: block;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.help-box-link:hover .service-box-text {
+  transform: translateY(-100%);
 }
 
 .service-box-text {
@@ -63,6 +60,7 @@
   color: white;
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  overflow-y: scroll;
 }
 
 .help-box-align {
